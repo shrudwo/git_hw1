@@ -1,0 +1,148 @@
+/* 60082437 노경재*/
+
+
+/* Reset CSS: from YUI2: Reset CSS */
+html{color:#000;
+	background:#00C12B; 
+	padding:20px 0;
+	font: 12px/18px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdana, Arial, Tahoma;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:100%;}
+
+/* Basic */
+h1 {font-size:15px; line-height:30px; font-weight:bold;font-style: italic;}
+h2 {font-size:12px; line-height:24px; font-weight:bold;font-style: italic;}
+a:visited, a:link {color:#38E05D;text-decoration:none;}
+a:hover, a:active {color:#65E080;}
+
+/* layout */
+#wrap {width:1000px; margin:0 auto; background-color:#38E05D;}
+
+/*  -- top -- */
+#top { 
+	width:980px; color:#000000; 
+	padding:0 10px 15px 0;
+	text-align:right; font-weight:bold ;
+}
+#top a {color:#000;text-decoration:none;padding:11px;}
+#top a:hover {background-color: #A64E00;}
+
+/*  -- header -- */
+#header {
+	width:100%; height:135px; background-color:#FF7800;
+	border-bottom: 0.5px solid #FF7800;
+	border-radius: 15px 15px 0 0;
+}
+#header_top {height:100px;}
+#header_left{
+	width: 500px; float:right;display:inline; color:#FFF;
+	padding:10px; height:80px;
+}
+#header_right{width:400px;float:left;text-align:right;display:inline; padding:40px 30px 0 0;}
+#line {width:1000px; height:5px;background-color:#133CAC;}
+
+
+/* -- search -- */
+#search {
+	background: #fff;
+	border: 1px solid #000;
+	width:280px; font-size:14px; line-height:24px; height:24px;
+	padding-left:22px; vertical-align: middle;
+}
+#search_button {height:28px; font-size:14px; 
+  line-height:24px; padding:5px;vertical-align: top;
+}
+
+/* -- content -- */
+#content {background:#fff; overflow:auto; padding:0;}
+#main_content { width:700px; float:left; padding:10px; background:#fff;}
+
+
+/* -- footer -- */
+#footer {background-color:#d5dde2; color:#888; text-align:center; padding: 20px;
+}
+
+
+/* -- navigation -- */
+#navbar {width:1000px; height:30px;background-color:#062270;}
+#navbar ul {margin:0;padding:0;}
+#navbar ul li {float:left;}
+#navbar ul li a{
+	color:#fff; background-color:#476DD5;
+	display:block;
+	width:150px;
+	text-align:center;
+	padding:0px 30px; 
+	font: bold 15px/30px Tahoma;
+	text-decoration:none;
+	margin-right:2px;
+	font-style: italic;
+}
+#navbar ul li a.selected {background-color:#476DD5;}
+#navbar ul li a:hover {background-color:#133CAC;}
+
+/*---------------------------------*/
+#main_content div.section_3, #main_content div.section_1 {
+	width:700px;
+	margin-bottom:20px;
+	border: 1px solid #d7e9f9;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow:auto;
+}
+
+#main_content div.section_3 h1, #main_content div.section_1 h1{
+	width:650px;
+	padding: 4px 6px 4px 44px;
+	background: #d7e9f9;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-radius: 5px 5px 0 0;
+}
+
+#main_content div.section_3 li { 
+	width: 250px; display:block; float:left; margin:5px; 
+}
+div.section_3 li img { float:left;}
+
+#main_content div.section_1 li { 
+	width: 690px; display:block; float:right; margin:5px; 
+	font-size: 20px;
+}
+div.section_1 li img { float:left;}
+/*---------------------------------*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
